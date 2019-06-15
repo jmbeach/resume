@@ -1,0 +1,103 @@
+# Example resume
+
+config:
+    theme: compact
+    github_source: https://github.com/jmbeach/resume
+    pdf_file: Jared_Beach_Resume.pdf
+profile:
+    name: Jared Beach
+    label: Software Engineer
+    email: jared.beach.5@gmail.com
+    addressLine1: Nashville, TN
+    image: "https://media.licdn.com/dms/image/C5603AQHs8JFWYwRkgA/profile-displayphoto-shrink_200_200/0?e=1565827200&v=beta&t=Kxv5oTyPuf57p_UsLtWKyIMWT7aYO6g6EOYMYHzPg4c"
+    networks:
+        -   provider: github
+            username: jmbeach
+            url: https://github.com/jmbeach
+
+        -   provider: linkedin
+            username: jared-beach-a3889264
+            url: https://www.linkedin.com/in/jared-beach-a3889264
+work:
+      -   company: Premier System Integrators
+        role: Engineer 3 - Software Engineer
+        location: Nashville, TN
+        date: October 2018 - Present
+        summary:
+        highlights:
+            - Full-stack engineer creating powerful software solutions for manufacturing companies.
+            - Developed web-based dashboard for car manufacturer. Real-time car body tracking using SignalR to update
+graphical representation of plant floor. Optimized for iPads. Vue.js as the framework. .NET Core / MVC backend.
+            - Created fault-tolerant, Windows WPF application to track parts added / removed from conveyor system using
+barcode scanners. Replaced manual entry into an AS400 system.
+            - Developed source control solution for third-party product to minimize risk of lost or corrupted code in the product's database.
+      -   company: Echo Global Logistics
+        role: Software Engineer
+        location: Chicago, IL
+        date: May 2018 - October 2018
+        summary: 
+        highlights:
+            - Developed micro-service-based application for automating logistics operations with an Angular 6 fronted. Uses
+Consul for service discovery
+            - Utilized CQRS and domain driven design patterns. Elastic Search read store and MS SQL Server write store.
+            - Bridged the gap between my software team and the DevOps team by building relationships and correcting
+misinformation.
+            - Delivered bi-weekly in agile sprints.
+    -   company: Hyla Soft USA
+        role: Manufacturing IT Analyst (A1)
+        location: Chicago, IL
+        date: January 2017 - May 2018
+        summary: 
+        highlights:
+            - Created custom automation engine for moving robot vehicles throughout plant in aerospace manufacturing plant.
+            - Maintained leading open source C# OPC library.
+            - Updated and made corrections to Java-based oil blending reporting system.
+    -   company: Nucor Steel Louisiana
+        role: Level II Technician Intern
+        location: Convent, LA
+        date: March 2016 - December 2016
+        summary: 
+        highlights:
+            - Provided on-site and remote work in order to introduce a higher level of automation to their process.
+            - Implemented delay tracking by polling PLC for delay status (was manually entered into spreadsheet). Replicated web interface from Tuscaloosa plant.
+            - Created web interface for viewing and recording truck weights as they enter and exit plant site. Replaced access database and manual entry of weights.
+    -   company: Nucor Steel Tuscaloosa, Inc.
+        role: Level II Technician Intern
+        date: May 2013 - March 2016
+        location: Tuscaloosa, AL
+        summary: 
+        highlights:
+            - Created software and automation solutions for capturing and retrieving data for the steelmaking process (focusing primarily on the caster area).
+            - Re-designed slab inspection web page to communicate with third-party tracking system, Rollcim and improved logging.
+            - Created cost model website for estimating and reporting prime tons and yield by product type.
+            - Participated in planning for and installing Danielli Q3 Intelligence system (particularly involved with caster data).
+projects:
+    -   name: Menuity
+        role: Developer / DevOps
+        github: https://github.com/jmbeach/TumblrSlideShow
+        website: http://tumblrslideshow.herokuapp.com/login
+        date: 05.2014
+        summary: Built website with friends to view restaurant menus.
+        highlights:
+            - Implemented AWS Docker deployments. Switched to DigitalOcean with CI using BitBucket pipelines
+            - Created custom .NET Core service to listen for pushes to Docker repository and re-deploy website.
+            - MongoDB server, Node.js API, Vue.js frontend, and NGINX server
+    -   name: H-OPC
+        role: Maintainer
+        website: https://www.nuget.org/packages/H.Opc/
+        github: https://github.com/hylasoft-usa/h-opc
+        date: 8.2016
+        summary: 
+        highlights:
+            - Significantly improved unit tests and corrected error handling of UA and DA clients.
+            - Added custom options for UA client.
+education:
+    -   location: The University of Alabama, Tuscaloosa, AL
+        date: Dec 2016 
+        summary: Bachelor of Science in Computer Science
+        gpa: 2.92 / 4.0
+        highlights:
+          - Researched Leap Motion controller's practical applications. Created virtual theremin in Unity 3D to demonstrate the controller's potential in music education.
+          - Worked in Lego Robotics Outreach program. Introduced young students to basic programming concepts.
+          - Earned Webucator's Computer Science Scholarship for 2015-2016 year.
+          - Earned Nucor Corporation University Collegiate Scholarship for 2015-2016 year.
