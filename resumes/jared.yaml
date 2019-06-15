@@ -19,29 +19,25 @@ profile:
             username: jared-beach-a3889264
             url: https://www.linkedin.com/in/jared-beach-a3889264
 work:
-      -   company: Premier System Integrators
+    -   company: Premier System Integrators
         role: Engineer 3 - Software Engineer
         location: Nashville, TN
         date: October 2018 - Present
         summary:
         highlights:
             - Full-stack engineer creating powerful software solutions for manufacturing companies.
-            - Developed web-based dashboard for car manufacturer. Real-time car body tracking using SignalR to update
-graphical representation of plant floor. Optimized for iPads. Vue.js as the framework. .NET Core / MVC backend.
-            - Created fault-tolerant, Windows WPF application to track parts added / removed from conveyor system using
-barcode scanners. Replaced manual entry into an AS400 system.
+            - Developed web-based dashboard for car manufacturer. Real-time car body tracking using SignalR to update graphical representation of plant floor. Optimized for iPads. Vue.js as the framework. .NET Core / MVC backend.
+            - Created fault-tolerant, Windows WPF application to track parts added / removed from conveyor system using barcode scanners. Replaced manual entry into an AS400 system.
             - Developed source control solution for third-party product to minimize risk of lost or corrupted code in the product's database.
-      -   company: Echo Global Logistics
+    -   company: Echo Global Logistics
         role: Software Engineer
         location: Chicago, IL
         date: May 2018 - October 2018
-        summary: 
+        summary:
         highlights:
-            - Developed micro-service-based application for automating logistics operations with an Angular 6 fronted. Uses
-Consul for service discovery
+            - Developed micro-service-based application for automating logistics operations with an Angular 6 fronted. Uses Consul for service discovery
             - Utilized CQRS and domain driven design patterns. Elastic Search read store and MS SQL Server write store.
-            - Bridged the gap between my software team and the DevOps team by building relationships and correcting
-misinformation.
+            - Bridged the gap between my software team and the DevOps team by building relationships and correcting misinformation.
             - Delivered bi-weekly in agile sprints.
     -   company: Hyla Soft USA
         role: Manufacturing IT Analyst (A1)
@@ -74,8 +70,8 @@ misinformation.
 projects:
     -   name: Menuity
         role: Developer / DevOps
-        github: https://github.com/jmbeach/TumblrSlideShow
-        website: http://tumblrslideshow.herokuapp.com/login
+        github:
+        website:
         date: 05.2014
         summary: Built website with friends to view restaurant menus.
         highlights:
