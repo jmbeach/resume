@@ -81,6 +81,7 @@ projects:
     role: Creator
     github:
     website:
+    date: 10.2019
     summary: React Native iOS/Android app for finding nearby restaurants at random.
     highlights:
       - Leveraged location services and pass to Google API to find nearby restaurants.
