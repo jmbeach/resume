@@ -4,12 +4,12 @@
   "description": "resume ======",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-install": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
-	"all": "npm install && gulp",
+    "all": "npm install && gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
