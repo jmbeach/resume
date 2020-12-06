@@ -46,8 +46,6 @@ work:
     highlights:
       - Developed micro-service-based application for automating logistics operations with an Angular 6 fronted. Uses Consul for service discovery
       - Utilized CQRS and domain driven design patterns. Elastic Search read store and MS SQL Server write store.
-      - Bridged the gap between my software team and the DevOps team by building relationships and correcting misinformation.
-      - Delivered bi-weekly in agile sprints.
   - company: Hyla Soft USA
     role: Manufacturing IT Analyst (A1)
     location: Chicago, IL
