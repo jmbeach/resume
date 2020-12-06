@@ -16,7 +16,7 @@ import shutil
 import docopt
 import jinja2
 import helpers
-
+from weasyprint import HTML
 
 # Template defaults
 defaults = {
@@ -98,7 +98,6 @@ def make_pdf(config, data):
     """
     Generate PDF file out of generated 'index.html' page.
     """
-    from weasyprint import HTML
     output_dir = config.get('output_dir', 'build')
     output_file = os.path.join(output_dir, config.get('pdf_file', 'resume.pdf'))
     input_file = os.path.join(output_dir, 'index.html')
