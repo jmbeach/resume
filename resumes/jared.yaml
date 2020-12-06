@@ -14,15 +14,24 @@ profile:
         -   provider: github
             username: jmbeach
             url: https://github.com/jmbeach
-
         -   provider: linkedin
             username: jared-beach-a3889264
             url: https://www.linkedin.com/in/jared-beach-a3889264
 work:
+    -   company: Iron Solutions
+        role: Software Developer
+        location: Nashville, TN
+        date: October 2019 - Current
+        summary:
+        highlights:
+            - Created React application and supporting backend for viewing and filtering sales reports of farm equipment so they can quickly and easily value their equipment. Largely successful launch.
+            - Embedded pre-existing React application into NetSuite and architected SSO between the systems.
+            - Contributed to our beautiful, powerful website for managing equipment inventory.
+            - Very happy at Iron. You could reach out for short-term contract work though.
     -   company: Premier System Integrators
         role: Engineer 3 - Software Engineer
         location: Nashville, TN
-        date: October 2018 - Present
+        date: October 2018 - October 2019
         summary:
         highlights:
             - Full-stack engineer creating powerful software solutions for manufacturing companies.
@@ -88,10 +97,12 @@ projects:
             - Significantly improved unit tests and corrected error handling of UA and DA clients.
             - Added custom options for UA client.
 education:
+    - location: Vanderbilt University, Nashville, TN
+        date: Current
+        summary: Masters in Computer Science
     -   location: The University of Alabama, Tuscaloosa, AL
         date: Dec 2016 
         summary: Bachelor of Science in Computer Science
-        gpa: 2.92 / 4.0
         highlights:
           - Researched Leap Motion controller's practical applications. Created virtual theremin in Unity 3D to demonstrate the controller's potential in music education.
           - Worked in Lego Robotics Outreach program. Introduced young students to basic programming concepts.
