@@ -4,6 +4,8 @@
 # Put these into config.make to override with your setup
 RESUME ?= resumes/example.yaml
 RSYNC_LOCATION ?= example.com:/var/www/resume/
+TEMP_DIR ?= /tmp/resume
+MAIN_BRANCH ?= jmbeach
 
 PYTHON ?= $(shell which python3)
 RSYNC ?= $(shell which rsync)
@@ -30,6 +32,13 @@ clean:
 
 publish:
 	$(RSYNC) -$(RSYNC_ARGS) $(BUILD_DIR) $(RSYNC_LOCATION)
+
+update_gh_pages:
+	cp -r $(BUILD_DIR) $(TEMP_DIR)
+	git stash
+	git checkout gh-pages
+	cp -rf $(TEMP_DIR)/* .
+	rm -rf $(TEMP_DIR)
 
 reload: clean html 
 	chrome-cli reload
