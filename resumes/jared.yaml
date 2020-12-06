@@ -77,6 +77,15 @@ work:
       - Created cost model website for estimating and reporting prime tons and yield by product type.
       - Participated in planning for and installing Danielli Q3 Intelligence system (particularly involved with caster data).
 projects:
+  - name: Chews
+    role: Creator
+    github:
+    website:
+    summary: React Native iOS/Android app for finding nearby restaurants at random.
+    highlights:
+      - Leveraged location services and pass to Google API to find nearby restaurants.
+      - Implemented custom graphics and components with native (60fps) animations.
+      - Shared my library on GitHub for native loading spinners.
   - name: Menuity
     role: Developer / DevOps
     github:
@@ -84,9 +93,9 @@ projects:
     date: 05.2017
     summary: Built website with friends to view restaurant menus.
     highlights:
-      - Implemented AWS Docker deployments. Switched to DigitalOcean with CI using BitBucket pipelines
+      - Implemented AWS Docker deployments. Switched to DigitalOcean with CI using BitBucket pipelines.
       - Created custom .NET Core service to listen for pushes to Docker repository and re-deploy website.
-      - MongoDB server, Node.js API, Vue.js frontend, and NGINX server
+      - MongoDB server, Node.js API, Vue.js frontend, and NGINX server.
   - name: H-OPC
     role: Maintainer
     website: https://www.nuget.org/packages/H.Opc/
