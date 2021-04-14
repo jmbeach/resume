@@ -2,12 +2,12 @@
 -include  config.make
 
 # Put these into config.make to override with your setup
-RESUME ?= resumes/example.yaml
+RESUME ?= resumes/jared.yaml
 RSYNC_LOCATION ?= example.com:/var/www/resume/
 TEMP_DIR ?= /tmp/resume
 MAIN_BRANCH ?= jmbeach
 
-PYTHON ?= $(shell which python3)
+PYTHON ?= ./venv/bin/python3
 RSYNC ?= $(shell which rsync)
 RSYNC_ARGS ?= aAXv
 BUILD_DIR ?= build
